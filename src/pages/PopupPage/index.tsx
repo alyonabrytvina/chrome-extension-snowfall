@@ -9,9 +9,9 @@ document.body.appendChild(appContainer)
 
 const root = createRoot(appContainer)
 root.render(
-        <React.StrictMode>
-            <ThemeProvider theme={theme}>
-                <PopupPage/>
-            </ThemeProvider>
-        </React.StrictMode>
+    <React.StrictMode>
+        <ThemeProvider theme={theme}>
+            <PopupPage/>
+        </ThemeProvider>
+    </React.StrictMode>
 )
